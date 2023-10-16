@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  background: #07889B;
+}
+
+#container{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: #EEAA7B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#scale{
+  transform: rotateX(180deg);
+  stroke-width: 50;
+  fill: none;
+}
+
+#ALOT{
+  stroke: #29ce58;
+  stroke-dasharray: 471, 943;
+}
+
+#Yeah{
+  stroke: #87d19c;
+  stroke-dasharray: 393, 943;
+}
+
+#Mmkay{
+  stroke: #ffd651;
+  stroke-dasharray: 315, 943;
+}
+
+#Ouch{
+  stroke: #ef961a;
+  stroke-dasharray: 237, 943;
+}
+
+#Owwwww{
+  stroke: #f26d0e;
+  stroke-dasharray: 159, 943;
+}
+
+#AHHHHHHH{
+  stroke: #ce2d2d;
+  stroke-dasharray: 81, 943;
+}
+
+#needle{
+  fill: #66B9BF;
+}
+
+.faces{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 37%;
+  left: 40%;
+}
+
+.faces #ALOT, .faces #Yeah, .faces #Mmkay, .faces #Owwwww, .faces #AHHHHHHH{
+  visibility: hidden;
+}
+.faces #eye_r, .faces #eye_l {
+  visibility: visible;
+}
+
+
+#slider, #level {
+  position: absolute;
+}
+
+h1 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  margin: auto;
+  right: 0;
+  font-size: 1.5em;
+}
+
+#slider {
+  cursor: pointer;
+  left: 0;
+  margin: auto;
+  right: 0;
+  top: 70%;
+  width: 50%;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  height: 15px;
+  background-color: #66B9BF; 
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 15px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#slider:focus {
+  outline: none; 
+}
+
+#level {
+  color: black;
+  font-size: 15pt;
+  font-weight: bold;
+  top: 75%;
+  width: 10%;
+  left: 45%;
+  visibility: hidden;
+  font-size: .9em;
+  color: #EEAA7B;
+}
